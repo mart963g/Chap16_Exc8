@@ -37,26 +37,6 @@ public class LinkedIntList
 
     }
 
-    /*
-    public void switchPairs()
-    {
-        ListNode current = this.front.next;
-        ListNode prev = this.front;
-        this.front = current;
-        while(current.next!=null)
-        {
-            prev.next = current.next;
-            current.next = prev;
-            if(prev.next.next==null)
-            {
-                break;
-            }
-            current = current.next.next.next;
-            prev = prev.next;
-        }
-    }
-    */
-
     public int deleteBack()
     {
         if (front==null)
